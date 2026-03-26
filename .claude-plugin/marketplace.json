@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Claude Code plugins by Endless Galaxy Studios",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -24,6 +24,22 @@
       "license": "MIT",
       "category": "productivity",
       "tags": ["memory", "context", "observations", "mcp"]
+    },
+    {
+      "name": "neuroloom-sdlc",
+      "source": {
+        "source": "github",
+        "repo": "endless-galaxy-studios/neuroloom-sdlc-plugin"
+      },
+      "description": "SDLC framework with Neuroloom-backed knowledge storage.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Endless Galaxy Studios"
+      },
+      "homepage": "https://neuroloom.dev",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["sdlc", "knowledge", "process", "mcp"]
     }
   ]
 }

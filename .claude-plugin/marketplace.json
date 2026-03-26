@@ -1,12 +1,12 @@
 {
+  "$schema": "https://code.claude.com/docs/en/plugin-marketplaces#marketplace-schema",
   "name": "endless-galaxy-studios",
   "owner": {
     "name": "Endless Galaxy Studios",
     "email": "engineering@endlessgalaxystudios.com"
   },
   "metadata": {
-    "description": "Claude Code plugins by Endless Galaxy Studios",
-    "version": "1.0.1"
+    "description": "Claude Code plugins by Endless Galaxy Studios"
   },
   "plugins": [
     {
@@ -15,15 +15,16 @@
         "source": "github",
         "repo": "endless-galaxy-studios/neuroloom-claude-plugin"
       },
-      "description": "Automatic memory capture for Claude Code — every tool use is stored, every session starts with context from your past work.",
+      "description": "Automatic memory capture for Claude Code — every tool use becomes searchable context for future sessions.",
       "version": "0.1.0",
       "author": {
         "name": "Endless Galaxy Studios"
       },
       "homepage": "https://neuroloom.dev",
+      "repository": "https://github.com/endless-galaxy-studios/neuroloom-claude-plugin",
       "license": "MIT",
       "category": "productivity",
-      "tags": ["memory", "context", "observations", "mcp"]
+      "keywords": ["memory", "context", "observations", "mcp"]
     },
     {
       "name": "neuroloom-sdlc",
@@ -31,15 +32,16 @@
         "source": "github",
         "repo": "endless-galaxy-studios/neuroloom-sdlc-plugin"
       },
-      "description": "SDLC framework with Neuroloom-backed knowledge storage.",
+      "description": "Makes your SDLC knowledge searchable and persistent — specs, plans, patterns, and conventions survive context clears.",
       "version": "0.1.0",
       "author": {
         "name": "Endless Galaxy Studios"
       },
       "homepage": "https://neuroloom.dev",
+      "repository": "https://github.com/endless-galaxy-studios/neuroloom-sdlc-plugin",
       "license": "MIT",
       "category": "productivity",
-      "tags": ["sdlc", "knowledge", "process", "mcp"]
+      "keywords": ["sdlc", "knowledge", "process", "mcp"]
     }
   ]
 }

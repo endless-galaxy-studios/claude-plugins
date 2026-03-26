@@ -1,0 +1,29 @@
+{
+  "name": "endless-galaxy-studios",
+  "owner": {
+    "name": "Endless Galaxy Studios",
+    "email": "engineering@endlessgalaxystudios.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Endless Galaxy Studios",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "neuroloom",
+      "source": {
+        "source": "github",
+        "repo": "endless-galaxy-studios/neuroloom-claude-plugin"
+      },
+      "description": "Automatic memory capture for Claude Code — every tool use is stored, every session starts with context from your past work.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Endless Galaxy Studios"
+      },
+      "homepage": "https://neuroloom.dev",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["memory", "context", "observations", "mcp"]
+    }
+  ]
+}

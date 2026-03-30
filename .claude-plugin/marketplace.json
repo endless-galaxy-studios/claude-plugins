@@ -16,7 +16,6 @@
         "repo": "endless-galaxy-studios/neuroloom-claude-plugin"
       },
       "description": "Automatic memory capture for Claude Code — every tool use becomes searchable context for future sessions.",
-      "version": "0.1.0",
       "author": {
         "name": "Endless Galaxy Studios"
       },
@@ -33,7 +32,6 @@
         "repo": "endless-galaxy-studios/neuroloom-sdlc-plugin"
       },
       "description": "Makes your SDLC knowledge searchable and persistent — specs, plans, patterns, and conventions survive context clears.",
-      "version": "0.1.0",
       "author": {
         "name": "Endless Galaxy Studios"
       },

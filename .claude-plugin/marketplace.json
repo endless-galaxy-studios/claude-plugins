@@ -12,8 +12,8 @@
     {
       "name": "neuroloom",
       "source": {
-        "source": "github",
-        "repo": "endless-galaxy-studios/neuroloom-claude-plugin"
+        "source": "url",
+        "url": "https://github.com/endless-galaxy-studios/neuroloom-claude-plugin.git"
       },
       "description": "Automatic memory capture for Claude Code — every tool use becomes searchable context for future sessions.",
       "author": {
@@ -28,8 +28,8 @@
     {
       "name": "neuroloom-sdlc",
       "source": {
-        "source": "github",
-        "repo": "endless-galaxy-studios/neuroloom-sdlc-plugin"
+        "source": "url",
+        "url": "https://github.com/endless-galaxy-studios/neuroloom-sdlc-plugin.git"
       },
       "description": "Makes your SDLC knowledge searchable and persistent — specs, plans, patterns, and conventions survive context clears.",
       "author": {
